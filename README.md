@@ -8,12 +8,12 @@ The analysis is in `cookie_cats_ab.ipynb`. On retention, the evidence supports k
 
 Both return days were examined. The recommendation uses day 7, where the difference is clearer. That choice was made after seeing the results.
 
-Out of every 1,000 players assigned to a gate, this many came back:
+Each row is one assigned gate. The percentage is the players who came back, divided by everyone assigned to that gate.
 
-| Gate | Day 1 | Day 7 |
-|---|---:|---:|
-| `gate_30` | 448 | 190 |
-| `gate_40` | 442 | 182 |
+| Gate | Players | Came back on day 1 | Came back on day 7 |
+|---|---:|---:|---:|
+| `gate_30` | 44,700 | 20,034 (44.8%) | 8,502 (19.0%) |
+| `gate_40` | 45,489 | 20,119 (44.2%) | 8,279 (18.2%) |
 
 On day 1, `gate_30` has 6 more returning players per 1,000. On day 7, it has 8 more. The day-7 gap is small, and it favors `gate_30`.
 
