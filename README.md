@@ -15,9 +15,7 @@ Each row is one assigned gate. The percentage is the players who came back, divi
 | `gate_30` | 44,700 | 20,034 (44.8%) | 8,502 (19.0%) |
 | `gate_40` | 45,489 | 20,119 (44.2%) | 8,279 (18.2%) |
 
-On day 1, `gate_30` has 6 more returning players per 1,000. On day 7, it has 8 more. The day-7 gap is small, and it favors `gate_30`.
-
-The range below is where the true gap probably sits. The count of 8 can move by about 5 players either way, because these are samples.
+The same gap, counted as players per 1,000. `gate_30` minus `gate_40`.
 
 | | Day 1 | Day 7 |
 |---|---:|---:|
@@ -25,9 +23,9 @@ The range below is where the true gap probably sits. The count of 8 can move by 
 | Likely range | −1 to 12 | 3 to 13 |
 | How often luck alone would make a gap this large | about 8 in 100 | about 2 in 1,000 |
 
-On day 7 the range is 3 to 13 extra players per 1,000, all in favor of `gate_30`. Even the low end still shows more players coming back. Luck alone would create a gap this large about 2 times in 1,000, so the difference is likely real.
-
-On day 1 the range runs from 1 player the other way to 12 extra players per 1,000. It includes no difference at all. Luck alone would create a gap this large about 8 times in 100, so the evidence there is weaker. The direction is the same as day 7.
+- **Extra returning players per 1,000 in `gate_30`.** This row is the gap we measured: how many more players came back in `gate_30`. On day 1 the gap is 6 players per 1,000. On day 7 it is 8. The day-7 gap is small, and it favors `gate_30`.
+- **Likely range.** This row is where the true gap probably sits. The groups are samples, so the measured gap can move. On day 7 the range is 3 to 13 extra players per 1,000, all in favor of `gate_30`. Even the low end still shows more players coming back. On day 1 the range is −1 to 12, from 1 player the other way to 12 extra players per 1,000, so it also covers a gap of zero.
+- **How often luck alone would make a gap this large.** This row asks how often luck alone would create a gap this size, if the gate made no difference. On day 7 that is about 2 times in 1,000, so the difference is likely real. On day 1 it is about 8 times in 100, so the evidence is weaker. The direction is the same as day 7.
 
 ## Data
 
