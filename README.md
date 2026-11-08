@@ -8,26 +8,26 @@ The analysis is in `cookie_cats_ab.ipynb`. On retention, the evidence supports k
 
 Both return days were examined. The recommendation uses day 7, where the difference is clearer. That choice was made after seeing the results.
 
-Each row is one assigned gate. The percentage is the players who came back, divided by everyone assigned to that gate.
+Out of every 1,000 players assigned to a gate, this many came back:
 
-| Gate | Players | Came back on day 1 | Came back on day 7 |
-|---|---:|---:|---:|
-| `gate_30` | 44,700 | 20,034 (44.8%) | 8,502 (19.0%) |
-| `gate_40` | 45,489 | 20,119 (44.2%) | 8,279 (18.2%) |
+| Gate | Day 1 | Day 7 |
+|---|---:|---:|
+| `gate_30` | 448 | 190 |
+| `gate_40` | 442 | 182 |
 
-`gate_30` minus `gate_40`:
+On day 1, `gate_30` has 6 more returning players per 1,000. On day 7, it has 8 more. The day-7 gap is small, and it favors `gate_30`.
+
+The range below is where the true gap probably sits. The count of 8 can move by about 5 players either way, because these are samples.
 
 | | Day 1 | Day 7 |
 |---|---:|---:|
-| Difference | 0.6 percentage points | 0.8 percentage points |
-| 95% confidence interval | −0.1 to 1.2 | 0.3 to 1.3 |
-| p | 0.0755 | 0.0016 |
+| Extra returning players per 1,000 in `gate_30` | 6 | 8 |
+| Likely range | −1 to 12 | 3 to 13 |
+| How often luck alone would make a gap this large | about 8 in 100 | about 2 in 1,000 |
 
-The difference is the subtraction of the two rates. On day 7, 19.0% − 18.2% = 0.8 percentage points, about 8 extra returning players out of every 1,000, in favor of `gate_30`. The gap is still small.
+On day 7 the range is 3 to 13 extra players per 1,000, all in favor of `gate_30`. Even the low end still shows more players coming back. Luck alone would create a gap this large about 2 times in 1,000, so the difference is likely real.
 
-The 95% confidence interval is the range of differences that fits this sample. On day 7 it stays above zero, from 0.3 to 1.3. On day 1 it runs from −0.1 to 1.2 and includes no difference, so the evidence there is weaker.
-
-`p` asks how often a gap at least this large would show up by chance if the gate made no difference. Day 7 is `p = 0.0016`, about 2 experiments out of 1,000. Day 1 is `p = 0.0755`.
+On day 1 the range runs from 1 player the other way to 12 extra players per 1,000. It includes no difference at all. Luck alone would create a gap this large about 8 times in 100, so the evidence there is weaker. The direction is the same as day 7.
 
 ## Data
 
@@ -50,7 +50,7 @@ The notebook ends at the conclusion. The comparison uses every assigned player.
 1. **Load and first look.** 90,189 players, one row each. `version` is the assigned gate, not proof that the player reached it.
 2. **Data checks.** No missing values and no duplicate players. The split is close to half and half, and the planned ratio is unknown. Most players stop before either gate. One player in `gate_30` played 49,854 rounds; the decision uses retention, not the average number of rounds.
 3. **Retention by assigned version.** Day-1 and day-7 return rates, the difference in percentage points, a 95% confidence interval, and a chi-square p-value.
-4. **Conclusion.** On retention, the evidence supports keeping the gate at 30. Day 7 return is 19.0% in `gate_30` and 18.2% in `gate_40`.
+4. **Conclusion.** On retention, the evidence supports keeping the gate at 30. On day 7, 190 of every 1,000 players came back in `gate_30`, and 182 in `gate_40`.
 
 Still unmeasured:
 
