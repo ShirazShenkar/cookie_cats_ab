@@ -29,8 +29,6 @@ The 95% confidence interval is the range of differences that fits this sample. O
 
 `p` asks how often a gap at least this large would show up by chance if the gate made no difference. Day 7 is `p = 0.0016`, about 2 experiments out of 1,000. Day 1 is `p = 0.0755`.
 
-The file has no purchases or revenue. If the business goal is money, retention alone cannot decide the move.
-
 ## Data
 
 `cookie_cats.csv` has 90,189 players, one row per player.
