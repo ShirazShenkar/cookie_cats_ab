@@ -20,10 +20,10 @@ The same gap, counted as players per 1,000. `gate_30` minus `gate_40`.
 | | Day 1 | Day 7 |
 |---|---:|---:|
 | Extra returning players per 1,000 in `gate_30` | 6 | 8 |
-| How often luck alone would make a gap this large | about 8 in 100 | about 2 in 1,000 |
+| How often luck alone would make a gap this large | about 8 in 100 (`p = 0.0755`) | about 2 in 1,000 (`p = 0.0016`) |
 
 - **Extra returning players per 1,000 in `gate_30`.** This row is the gap we measured: how many more players came back in `gate_30`. On day 1 the gap is 6 players per 1,000. On day 7 it is 8. The day-7 gap is small, and it favors `gate_30`.
-- **How often luck alone would make a gap this large.** This row asks how often luck alone would create a gap this size, if the gate made no difference. On day 7 that is about 2 times in 1,000, so the difference is likely real. On day 1 it is about 8 times in 100, so the evidence is weaker. The direction is the same as day 7.
+- **How often luck alone would make a gap this large.** This row asks how often luck alone would create a gap this size, if the gate made no difference. The words and the notebook are the same count. On day 1, about 8 in 100 is the notebook's `p = 0.0755`. On day 7, about 2 in 1,000 is `p = 0.0016`. The usual cutoff is 5 in 100, written `p = 0.05`. Day 7 is below that line, so the difference is likely real. Day 1 is above it, so the evidence is weaker. The direction is the same as day 7.
 
 ## Data
 
