@@ -45,8 +45,9 @@ The notebook ends at the conclusion. The comparison uses every assigned player.
 
 1. **Load and first look.** 90,189 players, one row each. `version` is the assigned gate, not proof that the player reached it.
 2. **Data checks.** No missing values and no duplicate players. The split is close to half and half, and the planned ratio is unknown. Most players stop before either gate. One player in `gate_30` played 49,854 rounds; the decision uses retention, not the average number of rounds.
-3. **Retention by assigned version.** Day-1 and day-7 return rates, the difference in percentage points, a 95% confidence interval, and a chi-square p-value.
-4. **Conclusion.** On retention, the evidence supports keeping the gate at 30. On day 7, 190 of every 1,000 players came back in `gate_30`, and 182 in `gate_40`.
+3. **Retention by assigned version.** Day-1 and day-7 return rates.
+4. **Detailed explanation.** The calculation of the gap, the 95% margin, and p, then what those numbers mean.
+5. **Conclusion.** On retention, the evidence supports keeping the gate at 30. On day 7, 190 of every 1,000 players came back in `gate_30`, and 182 in `gate_40`.
 
 Still unmeasured:
 
